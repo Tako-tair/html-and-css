@@ -1,0 +1,419 @@
+.loginPage{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+h1{
+    font-family: Calibri;
+}
+.loginPic{
+    display: flex;
+    flex-direction: row;
+}
+.passwordPic{
+    display: flex;
+    flex-direction: row;
+}
+.piclogin{
+    width: 35px;
+}
+.picpassword{
+    width: 35px;
+}
+.loginPic{
+    margin-top: 50px;
+}
+.passwordPic{
+    margin-top: 25px;
+}
+.loginfield1{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.passwordfield1{
+    margin-top: 1px;
+    margin-left: 10px;
+}
+.loginfield2{
+    height: 25px;
+    width: 230px;
+}
+.passwordfield2{
+    height: 25px;
+    width: 230px;
+}
+.loginfield2{
+    border-style: solid;
+}
+.passwordfield2{
+    border-style: solid;
+}
+.button{
+    margin-left: 15px;
+}
+.footerline{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 2%;
+}
+.vl {
+    border-top: 2px solid  darkgrey;
+    width: 1280px;
+}
+.button{
+    color: white;
+    background-color: blue;
+    border-style: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 2px;
+    font-family: Calibri;
+    font-size: 16px;
+}
+.button:hover{
+    opacity: 2;
+    background-color: darkblue;
+}
+/*                    registration                */
+.footerline1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.v2 {
+    border-top: 2px solid  darkgrey;
+    width: 164px;
+}
+.v3 {
+    border-top: 2px solid  darkgrey;
+    width: 400px;
+}
+.v4 {
+    border-top: 2px solid  darkgrey;
+    width: 250px;
+}
+h2{
+    margin-left: 510px;
+    font-family: Calibri;
+    font-size: 35px;
+}
+.labelText{
+    font-size: 16px;
+    font-family: Calibri;
+}
+.infoClientBox{
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    margin-left: 500px;
+}
+.infoClientBox1{
+    display: flex;
+    flex-direction: column;
+}
+.infoClientBox1part1{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.infoClientBox1part2{
+    line-height: 40px;
+    margin-top: 10px;
+}
+.infoClientBox2{
+    display: flex;
+    flex-direction: column;
+}
+.infoClientBox2part1{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.infoClientBox2part2{
+    line-height: 40px;
+    margin-top: 10px;
+}
+.iinPage3{
+    font-size: 18px;
+    height: 25px;
+    width: 300px;
+    border-radius: 0;
+    border: 2px;
+    border-style: solid;
+    color: gray;
+}
+.iinPage4{
+    font-size: 18px;
+    height: 25px;
+    width: 168px;
+    border-radius: 0;
+    border: 2px;
+    border-style: solid;
+    color: gray;
+}
+.iinRadio{
+    border-style: solid;
+    color: gray;
+}
+.searchButton{
+    margin-top: 15px;
+    margin-left:52%;
+    color: white;
+    background-color: blue;
+    border: none;
+    width: 130px;
+    height: 30px;
+}
+.searchButton:hover{
+    opacity: 2;
+    background-color: darkblue;
+}
+h3{
+    text-align: center;
+    width: 500px;
+    background-color: crimson;
+    margin-top: 40px;
+    margin-left: 550px;
+    color: white;   
+}
+/*                    Main Page                  */
+.main{
+    background-image: url("picture/2.jpg");
+    background-attachment: fixed;
+}
+.courseLogin{
+    margin-left: 45%;
+}
+h6{
+    font-size: 25px;
+    line-height: 0px;
+    font-family: Calibri;
+    color: ivory;
+}
+.coursemain{
+    width: 27%;
+    margin-left: 38%;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.course label{
+    font-size: 16px;
+    font-family: Calibri;
+}
+.courseName{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+h4{
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: Calibri;
+}
+.courseDescription{
+    text-align: right;
+}
+h5{
+    font-size: 16px;
+    font-family: Calibri;
+}
+.info{
+    position: fixed;
+    right: 10px;
+    top: 20%;
+    padding: 20px;
+    background: seashell;
+    border: 1px solid #333;
+    height: 380px;
+    width: 250px;
+    border: 1px wheat solid;
+}
+.info label{
+    font-family: Calibri;
+    font-size: 17px;
+}
+.info1{
+    position: fixed;
+    left: 10px;
+    top: 20%;
+    padding: 20px;
+    height: 310px;
+    width: 250px;
+}
+.adText{
+    display: flex;
+    flex-direction: column;
+    background-color: ivory;
+    padding: 10px;
+}
+.adText label{
+    font-size: 16px;
+    font-family: Calibri;
+}
+.adText a{
+    font-family: Calibri;
+    font-size: 16px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+.modText{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: ivory;
+    padding: 10px;
+}
+.modText label{
+    font-size: 16px;
+    font-family: Calibri;
+}
+.modText a{
+    font-family: Calibri;
+    font-size: 16px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+.courseBut{
+    background-color: honeydew;
+    width: 150px;
+    margin-left: 30%;
+}
+.infoBut{
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 20px;
+    color: blue;
+}
+
+/*         main Course Information        */
+.coursemain1{
+    width: 35%;
+    margin-left: 36%;
+    margin-top: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+
+}
+.courseBut1{
+    margin-left: 60px;
+    height: 50px;
+}
+.infoButton{
+    width: 180px;
+    height: 30px;
+    margin-right: 50px;
+    color: firebrick;
+    background-color: wheat;
+    border: none;
+}
+.infoButton:hover{
+    background-color: orange;
+}
+.backCourse{
+    text-decoration: none;
+}
+.course1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+.course label{
+    font-size: 16px;
+    font-family: Calibri;
+}
+.courseName1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.courseDescription1{
+    text-align: right;
+}
+/*        admin Page          */
+h7{
+    font-size: 50px;
+    font-family: Calibri;
+}
+.admin{
+    margin-left: 30%;
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.admin table{
+    border: 1px black solid;
+}
+.admin table tr{
+     border: 1px black solid;
+}
+.admin table tr td{
+    border: 1px black solid;
+}
+.f{
+    font-family: Calibri;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+/*  moderator Page         */
+h8{
+    font-size: 30px;
+    font-family: Calibri;
+}
+.newcourse{
+    margin-left: 600px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+.newinput{
+    width: 250px;
+    height: 20px;
+    margin-top: 10px;
+}
+.newbutton{
+    margin-top: 30px;
+    width: 150px;
+}
+.admin1{
+    display: flex;
+    flex-direction: row;
+}
+.editform{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.input{
+    margin-top: 10px;
+}
+
+/*          cookies            */
+.cookies{
+    margin-left: 10%;
+    margin-top:5%;
+}
